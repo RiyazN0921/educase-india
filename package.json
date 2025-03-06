@@ -1,0 +1,31 @@
+{
+  "name": "educase-india",
+  "version": "1.0.0",
+  "description": "assignment task using node mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiyazN0921/educase-india.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Mysql",
+    "Express"
+  ],
+  "author": "Riyaz Nadaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiyazN0921/educase-india/issues"
+  },
+  "homepage": "https://github.com/RiyazN0921/educase-india#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.13.0",
+    "sequelize": "^6.37.6"
+  }
+}
