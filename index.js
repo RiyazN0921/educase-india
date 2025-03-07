@@ -15,6 +15,10 @@ app.use(bodyParser.json())
 
 app.use('/api/schools', schoolRoutes)
 
+app.get('/home', (req, res) => {
+  res.send('welcome to educase backend')
+})
+
 app.use(errorMiddleware)
 
 sequelize
